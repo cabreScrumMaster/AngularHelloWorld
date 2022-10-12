@@ -16,7 +16,7 @@ jobs:
     steps:
     - name: Use Node.js ${{ matrix.node-version }}
       working-directory : ./HelloWorld
-    - uses: actions/checkout@v3
+      uses: actions/checkout@v3
     - name: Cache node modules
       id: cache-nodemodules
       uses: actions/cache@v2
