@@ -5,11 +5,15 @@
   "projects": {
     "HelloWorld": {
       "projectType": "application",
+<<<<<<< HEAD
       "schematics": {
         "@schematics/angular:application": {
           "strict": true
         }
       },
+=======
+      "schematics": {},
+>>>>>>> 54942b5c20065af56aaae191085845ddbc62c0f9
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -17,7 +21,11 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+<<<<<<< HEAD
             "outputPath": "dist/HelloWorld",
+=======
+            "outputPath": "dist/hello-world",
+>>>>>>> 54942b5c20065af56aaae191085845ddbc62c0f9
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -101,6 +109,10 @@
         }
       }
     }
+<<<<<<< HEAD
   },
   "defaultProject": "HelloWorld"
+=======
+  }
+>>>>>>> 54942b5c20065af56aaae191085845ddbc62c0f9
 }
