@@ -19,7 +19,6 @@ jobs:
       with:
         repository: ${{github.repository}}
     - name: Use Node.js ${{ matrix.node-version }}
-      working-directory : ./HelloWorld
       uses: actions/setup-node@v3.5.0
       with:
         node-version: ${{matrix.node-version}}
