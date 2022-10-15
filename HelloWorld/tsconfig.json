@@ -6,11 +6,8 @@
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
-<<<<<<< HEAD
-=======
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
->>>>>>> 54942b5c20065af56aaae191085845ddbc62c0f9
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
@@ -19,17 +16,10 @@
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
-<<<<<<< HEAD
-    "target": "es2017",
-    "module": "es2020",
-    "lib": [
-      "es2018",
-=======
     "target": "es2020",
     "module": "es2020",
     "lib": [
       "es2020",
->>>>>>> 54942b5c20065af56aaae191085845ddbc62c0f9
       "dom"
     ]
   },
